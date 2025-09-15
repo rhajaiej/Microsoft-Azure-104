@@ -30,7 +30,8 @@ Sign in at [https://portal.azure.com](https://portal.azure.com).
 | Name            | CoreServicesVnet            |
 | Region          | (US) East US                |
 
-<img width="1435" height="781" alt="image" src="https://github.com/user-attachments/assets/08be3b08-ff9c-45d8-af99-db05a9227a80" />
+<img width="1435" height="781" alt="image" src="https://github.com/user-attachments/assets/b7d09228-de0d-45da-9a03-bd7ad9c76fc5" />
+
 
 
 ---
