@@ -15,7 +15,7 @@ Sign in at [https://portal.azure.com](https://portal.azure.com).
 ## Step 2: Navigate to Virtual Networks
 
 1. Search for and select **Virtual Networks**.
-<img width="1443" height="784" alt="image" src="https://github.com/user-attachments/assets/5c57baf2-9cdb-496f-b52a-64179a8d9385" />
+<img width="1443" height="784" alt="image" src="https://github.com/user-attachments/assets/0b191bb8-7d2d-40e6-aa5c-290cda1c2276" />
 
  
 3. Click **Create** on the Virtual Networks page.
