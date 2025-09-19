@@ -40,3 +40,7 @@ For example, if you purchased the **contoso.xyz** domain name from a domain name
 
    ```shell
    nslookup www.contoso.com <name server name>
+
+10. Verify the host name www.contoso.com
+ resolves to the IP address you provided.
+✅ This confirms name resolution is working correctly.
