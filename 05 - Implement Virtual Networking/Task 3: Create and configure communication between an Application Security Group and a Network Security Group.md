@@ -75,3 +75,4 @@ Protocol	Any
 Action	Deny
 Priority	4096
 Name	DenyInternetOutbound
+Task 4: Configure public and private Azure DNS zones
