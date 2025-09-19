@@ -44,3 +44,40 @@ For example, if you purchased the **contoso.xyz** domain name from a domain name
 10. Verify the host name www.contoso.com
  resolves to the IP address you provided.
 ✅ This confirms name resolution is working correctly.
+
+## Configure a private DNS zone
+
+A private DNS zone provides name resolution services within virtual networks.  
+A private DNS zone is only accessible from the virtual networks that it is linked to and **cannot** be accessed from the internet.
+
+1. In the portal, search for and select **Private DNS zones**.
+2. Select **+ Create**.
+3. On the **Basics** tab of **Create private DNS zone**, enter the information as listed below:
+
+   | Property       | Value                                      |
+   |----------------|--------------------------------------------|
+   | Subscription   | Select your subscription                   |
+   | Resource group | az-104-rg4                                 |
+   | Name           | private.contoso.com (adjust if renamed)   |
+   | Region         | East US                                   |
+
+4. Select **Review + create** and then **Create**.
+5. Wait for the DNS zone to deploy and then select **Go to resource**.
+6. Notice on the **Overview** blade there are no name server records.
+7. Expand the **DNS Management** blade and select **Virtual network links**. Configure the link:
+
+   | Property        | Value             |
+   |-----------------|------------------|
+   | Link name       | manufacturing-link|
+   | Virtual network | ManufacturingVnet |
+
+8. Select **Create** and wait for the link to be created.
+9. From the **DNS Management** blade, select **+ Recordsets**. Add a record for each virtual machine that needs private name-resolution support:
+
+   | Property   | Value     |
+   |------------|-----------|
+   | Name       | sensorvm  |
+   | Type       | A         |
+   | TTL        | 1         |
+   | IP address | 10.1.1.4  |
+
