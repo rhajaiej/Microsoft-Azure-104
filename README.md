@@ -23,6 +23,7 @@ Chaque lab vit dans son propre dossier sous `labs/`, numéroté et nommé en `ke
 | # | Lab | Produit | Durée estimée |
 |---|-----|---------|----------------|
 | 01 | [Créer un tenant Microsoft Entra ID](labs/01-create-entra-id-tenant/README.md) | Microsoft Entra ID | 15 min |
+| 02 | [Configurer le réseau virtuel, la sécurité et le DNS Azure](labs/02-create-virtual-network-with-subnets/README.md) | Azure Virtual Network, NSG/ASG, Azure DNS | 90 min |
 
 ## Conventions
 
